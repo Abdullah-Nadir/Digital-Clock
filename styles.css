@@ -1,0 +1,36 @@
+body {
+  background-color: #333;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 100px;
+  color: yellow;
+}
+
+p {
+  font-family: Arial;
+  text-align: center;
+  color: yellow;
+}
+
+.clock {
+  font-size: 5rem;
+  text-align: center;
+  font-family: Arial;
+  margin: 100px auto;
+  color: yellow;
+}
+
+.clock span {
+  padding: 20px;
+  background-color: #444;
+}
+
+@media (max-width: 800px) {
+  .clock {
+    font-size: 3rem;
+  }
+}
